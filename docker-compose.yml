@@ -5,7 +5,7 @@ services:
     image: vegetable:v1.0.0
     container_name: vegetable-app
     ports:
-      - "3001:3000"
+      - "3000:3000"
     environment:
       - MONGODB_URI=mongodb://mongodb:27017/vegetable_order_app
 
