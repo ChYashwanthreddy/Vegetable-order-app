@@ -5,3 +5,4 @@ metadata:
   namespace: yash-ns
 data:
   MONGODB_URI: "mongodb://mongodb:27017/vegetable_order_app"
+  MONGO_INITDB_DATABASE: "vegetable_order_app"
